@@ -1,0 +1,69 @@
+@media (min-width:840px) and (max-width:1800px)
+{
+    .section1{
+
+    }
+    .section1 ul{
+        list-style: none;
+        width: 50rem;
+        text-align: center;
+        margin: 5% auto;
+        font-size: 1.5rem;
+        padding: 0;
+    }
+    .section1 li{
+        border: 3px solid #4d4d4d; border-collapse: collapse;
+    }
+    .section1 .m{
+        padding: 5rem;
+    }
+    .section1 .img{
+        padding: 2rem;
+    }
+    .section1 h2{
+        text-align: center;
+        margin-top: 5%;
+        font-size: 1.8rem;
+    }
+    .flex1{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        font-size: 1.2rem;
+    }
+    .flex1 h2{
+        margin: 0;
+        margin-top: 3%;
+        font-size: 1.5rem;
+    }
+    .table1{
+        border: 3px solid #4d4d4d; border-collapse: collapse;
+        width:15rem;
+    }
+    .table2{
+        border: 3px solid #4d4d4d; border-collapse: collapse;
+        width:15rem;
+    
+    }
+    .table1 td{
+        border: 3px solid #4d4d4d; border-collapse: collapse;
+        padding: 0.2rem;
+    }
+    .table1 th{
+        border: 3px solid #4d4d4d; border-collapse: collapse;
+    }
+    .table2 td{
+        border: 3px solid #4d4d4d; border-collapse: collapse;
+        padding: 0.2rem;
+    }
+    .table2 th{
+        border: 3px solid #4d4d4d; border-collapse: collapse;
+    }
+    .button1{
+        text-align: center;
+        margin: 5% 75%;
+        width: 5rem;
+        height: 2rem;
+    }
+
+}

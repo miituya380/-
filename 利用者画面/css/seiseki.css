@@ -1,0 +1,93 @@
+@media (min-width:840px) and (max-width:1800px)
+{
+    body{
+        margin: 0 auto;
+        background-color: #ffe;
+    }
+    a{
+        text-decoration: none;
+    }
+    body a{
+        color: #4d4d4d;
+    }
+    body a:hover{
+        color: #0a0a0a;
+    }
+    header {
+        background: rgb(243, 243, 243);
+        box-shadow: 5px 5px 5px 5px rgb(206, 206, 206);
+        
+    }
+    h1{
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+    h2{
+        font-size: 1.3rem;
+        margin: 0;
+    }
+    header table{
+        border-top: solid 2px #4d4d4d;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0px;
+    }
+    header h1 a{
+        color: #666666;
+    }
+
+    .logout{
+        margin-right: 1rem;
+        text-align: right;
+        position: relative;
+    }
+    .hyou{
+        padding: 0px;
+        margin: 10% 10%;
+        margin-top: 10%;
+        text-align: center;
+        font-size: 1.2rem;
+        border-collapse: collapse;
+        border:3px solid #333;
+        width: 40%;
+    }
+    .hyou .t1{
+  
+    }
+    .hyou td{
+        border-collapse: collapse;
+        border:3px solid #333;
+    }
+    button{
+        position: absolute;
+        left: 75%;
+        top: 44.5rem;
+        width: 5%;
+        font-size: 1rem;
+
+    }
+
+    footer{
+        margin-top: 20rem;
+        background: #333;
+        margin-bottom: 0px;
+        height: 10rem;
+    }
+    .table4{
+        font-size: 1.3rem;
+        text-align: center;
+        border: 3px solid #4d4d4d; border-collapse: collapse;
+        margin: 0 auto;
+        position: absolute;
+        left: 60%;
+        top: 44rem;
+        width: 10%;
+    }
+    .table4 th{
+        border: 3px solid #4d4d4d; border-collapse: collapse;
+
+    }
+
+
+}

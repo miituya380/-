@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" href= "css/mondai.css">
+		<link rel="stylesheet" href="css/head.css">
+		<link rel="stylesheet" href="css/footer.css">
+
+		<title>トップページ</title>
+	</head>
+
+	<body>
+		<!-- コンテナ -->
+		<div class="container">
+
+    <header>
+        <h1><a href="top.html">top</a></h1>
+        <table>
+        <tr>
+            <th><h2><a href="mondai.html" class="r">問題選択画面へ</a></h1></th>
+			<th><h2><a href="mondaisyu.html" class="r">成績閲覧画面へ</a></h1></th>
+            <th><h2><a href="編集・追加/mondaituika.html">ログアウト　　</a></h1></th>
+        </tr>
+    </table>
+    
+    </header>
+
+
+      <body>
+		<section class="section1">
+			<!-- 折りたたみ展開ボタン -->
+			<div onclick="obj=document.getElementById('menu1').style; obj.display=(obj.display=='none')?'block':'none';">
+				<h2 style="cursor:pointer;">▼ 問題集1</h2>
+				
+			</div>
+			<!--// 折りたたみ展開ボタン -->
+	  
+			<!-- ここから先を折りたたむ -->
+			<div id="menu1" class="menu" style="display:none;clear:both;">
+				<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th>正当数</th>
+							<th>回答数</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><u><a href="mondai2.html" class="r">問1</a></u></td>
+							<td>5回</td>
+							<td>3回</td>
+						</tr>
+						<tr>
+							<td>問２</td>
+							<td>２回</td>
+							<td>１回</td>
+						</tr>
+						<tr>
+							<td>問３</td>
+							<td>２回</td>
+							<td>２回</td>
+						</tr>
+					</tbody>
+				</table>
+				<!--この部分が折りたたまれ、展開ボタンをクリックすることで展開します。-->
+	 
+		 </div>
+			<!--// ここまでを折りたたむ -->
+			
+			<!-- 折りたたみ展開ボタン２ -->
+			<div onclick="obj=document.getElementById('menu2').style; obj.display=(obj.display=='none')?'block':'none';">
+				<h2 style="cursor:pointer;">▼ 問題集2</h2>
+				
+			</div>
+			<!--// 折りたたみ展開ボタン -->
+	  
+			<!-- ここから先を折りたたむ -->
+			<div id="menu2" class="menu" style="display:none;clear:both;">
+					<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th>正当数</th>
+							<th>回答数</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><u><a href="mondai2.html" class="r">問1</a></u></td>
+							<td>5回</td>
+							<td>3回</td>
+						</tr>
+						<tr>
+							<td>問２</td>
+							<td>２回</td>
+							<td>１回</td>
+						</tr>
+						<tr>
+							<td>問３</td>
+							<td>２回</td>
+							<td>２回</td>
+						</tr>
+					</tbody>
+				</table>
+				<!--この部分が折りたたまれ、展開ボタンをクリックすることで展開します。-->
+	 
+		</div>
+
+		</div>
+       
+        <!--// ここまでを折りたたむ -->
+        
+        <button type="button" class="button"><a href="mondai2.html">ランダム</a></button>
+
+
+		</section>
+		<footer>
+			<ul>
+				<li></li>
+				<li></li>
+			</ul>
+		</footer>
+	</body>
+</html>
+			 

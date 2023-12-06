@@ -1,0 +1,25 @@
+@media (min-width:840px) and (max-width:1800px)
+{
+
+    .section1 table{
+        border-top: solid 2px #4d4d4d;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0px;
+    }
+    
+     .section1 th, td  {
+	   border: 2px solid #ccc;
+	   padding: 10px;
+    }
+    
+    .section1 th {
+	   background-color: solid 2px #4d4d4d;
+    }
+    
+    .sukippu{
+        padding: 10px;
+        border: 1px solid #333;
+        background: #f2f2f2;
+    }
+}

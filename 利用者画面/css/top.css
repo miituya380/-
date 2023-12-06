@@ -1,0 +1,37 @@
+
+@media (min-width:840px) and (max-width:1800px)
+{
+    ul{
+        margin: 0 auto 10%;
+        margin-top: 10%;
+        padding: 0;
+    }
+    ul li{
+        width: 40%;
+        text-align: center;
+        border-collapse: collapse;
+        border:3px solid #333;
+        font-size: 25px;
+        list-style: none;
+        border-radius: 3px;
+        margin: 0 auto;
+        margin-top: 1.5rem;
+        /* background: rgb(227, 227, 227); */
+    }
+    
+    h4{
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    .box5 {
+        padding: 0.5em 1em;
+        margin: 2em auto;
+        border: double 5px #4ec4d3;
+        width: 60%;
+    }
+    .box5 p {
+        margin: 0; 
+        padding: 0;
+    }
+}

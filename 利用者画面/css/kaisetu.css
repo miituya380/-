@@ -1,0 +1,37 @@
+
+@media (min-width:840px) and (max-width:1800px)
+{
+    
+    .mondai{
+        text-align: center;
+        margin: 5% auto 5%;
+        font-size: 2rem;
+        border: solid 3px #4d4d4d;
+        width: 40%;
+        padding: 7rem;
+        height: 20%;
+    }
+    .seigo{
+        margin: 5% auto;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    footer{
+        margin-top: 20rem;
+        background: #333;
+        margin-bottom: 0px;
+        height: 10rem;
+    }
+    .button{
+        margin: 10% 70% auto;
+        width: 10%;
+        font-size: 1.5rem;
+    }
+    
+    .zu img{
+        width: 100%;
+    }
+
+
+}

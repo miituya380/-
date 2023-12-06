@@ -1,0 +1,15 @@
+@media (min-width:840px) and (max-width:1800px)
+{
+
+    .sukippu{
+        padding: 10px;
+        border: 1px solid #333;
+        background: #f2f2f2;
+    }
+
+    .q1 h2{
+        margin: 0 auto;
+        width: 70%;
+        text-align: center;
+    }
+}

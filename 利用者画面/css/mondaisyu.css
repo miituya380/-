@@ -1,0 +1,38 @@
+@media (min-width:840px) and (max-width:1800px)
+{
+   
+    .hyou{
+        padding: 0px;
+        margin: 10% 10%;
+        margin-top: 10%;
+        text-align: center;
+        font-size: 1.2rem;
+        border-collapse: collapse;
+        border:3px solid #333;
+        width: 40%;
+    }
+    .hyou .t1{
+        padding: 1rem;
+    }
+    .hyou td{
+        border-collapse: collapse;
+        border:3px solid #333;
+    }
+    button{
+        margin-left: 50%;
+    }
+
+    .hyou2{
+        position: relative;
+        left: 60rem;
+        bottom: 20rem;
+        font-size: 1.3rem;
+        text-align: center;
+        border: 3px solid #4d4d4d; border-collapse: collapse;
+    }
+    .hyou2 td{
+        border: 3px solid #4d4d4d; border-collapse: collapse;
+        width: 4rem;
+    }
+
+}

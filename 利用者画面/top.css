@@ -1,0 +1,72 @@
+
+@media (min-width:840px) and (max-width:1800px)
+{
+    body{
+        margin: 0 auto;
+        background-color: #ffe;
+    }
+    a{
+        text-decoration: none;
+    }
+    body a{
+        color: #4d4d4d;
+    }
+    body a:hover{
+        color: #0a0a0a;
+    }
+    header {
+        background: rgb(243, 243, 243);
+        box-shadow: 5px 5px 5px 5px rgb(206, 206, 206);
+        
+    }
+    
+    h1{
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+    
+    h2{
+        text-align: center;
+        margin: 0;
+        width: 100%;
+        line-height: 150%;
+    }
+    
+    table{
+        border-top: solid 2px #4d4d4d;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0px;
+    }
+    
+    h3{
+        text-align: center;
+	   padding:2px 8px; /* 枠と文字の空間 */
+	   margin:0 5px; /* 枠の外の空間 */
+	   background-color:#f9f9f9; /* 枠の背景色 */
+	   border:1px solid #777; /* 枠の線の太さ・種類・色 */
+	   border-radius:2px; /* 枠の角を丸くする */
+	   box-shadow: 1px 2px 2px #ddd; /*影をいれる*/
+	   font-family: inherit; /* フォントの種類を継承する */
+	   font-size: 2em;	/* フォントの大きさ */
+    }
+    
+    li {
+        height: 160px;
+    }
+    
+    h4{
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    .box5 {
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        border: double 5px #4ec4d3;
+    }
+    .box5 p {
+        margin: 0; 
+        padding: 0;
+    }

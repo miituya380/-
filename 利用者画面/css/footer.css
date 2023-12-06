@@ -1,0 +1,9 @@
+footer{
+    margin-top: 25rem;
+    background: #333;
+    margin-bottom: 0px;
+    height: 15rem;
+}
+footer ul{
+    list-style: none;
+}

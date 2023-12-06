@@ -1,0 +1,53 @@
+@media (min-width:840px) and (max-width:1800px)
+{
+    body{
+        margin: 0 auto;
+        /* margin-bottom: 10%; */
+        background: rgb(220, 220, 220);
+    }
+    a{
+        text-decoration: none;
+    }
+    body a{
+        color: #4d4d4d;
+    }
+    body a:hover{
+        color: #0a0a0a;
+    }
+    header h1{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    header h2{
+        font-size: 1.3rem;
+        margin: 0;
+        padding: -1rem;
+        width: 100%;
+    }
+    header table{
+        border-top: solid 2px #4d4d4d;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0px;
+    }
+    .riyousya{
+        margin-left: 1rem;
+        width: 40%;
+        margin: 0 auto;
+    }
+    .logout{
+        margin-right: 1rem;
+        text-align: right;
+        position: relative;
+    }
+    header {
+        margin-top: 0;
+        background: rgb(243, 243, 243);
+        box-shadow: 5px 5px 5px 5px rgb(206, 206, 206);
+    }
+    header h1 a{
+        color: #666666;
+    }
+
+}
